@@ -1,0 +1,19 @@
+local function checkHealth(hp)
+    if hp >= 80 then
+        return "The player is in good health"
+    elseif hp <= 0 then
+        return "The player is dead"
+    elseif hp <= 20 then
+        return "The player is on the ground"
+    elseif hp <= 50 then
+        return "The player is seriously injured"
+    elseif hp <= 80 then
+        return "The player is injured"
+  
+    end
+end
+
+print(checkHealth(100))
+print(checkHealth(45))
+print(checkHealth(5))
+print(checkHealth(0))
