@@ -1,0 +1,5 @@
+local inventaire = {"Pistolet", "Kit de Soin", "Grenade", "Argent"}  -- Table Inventaire
+
+for i = 1, #inventaire do 
+    print ("Objet n°" ..i.. " "..inventaire[i])
+end

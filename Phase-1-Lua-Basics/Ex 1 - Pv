@@ -1,0 +1,13 @@
+local pv = 100
+
+if pv >= 80 then 
+    print("Le joueur est en bonne santé")
+elseif pv <= 0 then
+    print("Le joueur est mort")    
+elseif pv <= 20 then
+    print("Le joueur est au sol")
+elseif pv <= 50 then
+    print("Le joueur est gravement blessé")
+elseif pv <= 80 then
+    print("Le joueur est blessé")
+end
