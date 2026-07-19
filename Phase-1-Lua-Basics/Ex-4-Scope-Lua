@@ -1,0 +1,6 @@
+local function setScore()
+    local score = 100
+end
+
+setScore()
+print(score)

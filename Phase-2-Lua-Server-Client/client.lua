@@ -1,0 +1,10 @@
+RegisterCommand('claimMoney', function()
+    TriggerServerEvent('claimMoney')
+end)
+
+RegisterNetEvent('claimResult')
+AddEventHandler('claimResult', function(message)
+    SetNotificationTextEntry("STRING")
+    AddTextComponentString(message)
+    DrawNotification(false, false)
+end)
